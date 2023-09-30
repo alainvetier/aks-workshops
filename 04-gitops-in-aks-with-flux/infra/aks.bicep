@@ -1,4 +1,4 @@
-param prefix string = 'iac-ws4'
+param prefix string = 'gitops'
 param slot string = 'blue'
 param vnetAddressPrefix string = '10.11.0.0/16'
 param aksSubnetAddressPrefix string = '10.11.0.0/23'

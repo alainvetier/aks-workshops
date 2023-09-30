@@ -2,7 +2,7 @@ targetScope = 'subscription'
 param tags object
 
 param location string
-param prefix string = 'iac-ws4'
+param prefix string = 'gitops'
 param slot string = 'blue'
 param vnetAddressPrefix string
 param aksSubnetAddressPrefix string

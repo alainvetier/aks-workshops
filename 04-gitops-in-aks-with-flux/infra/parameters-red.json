@@ -3,18 +3,15 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "westeurope"
+            "value": "eastasia"
         },
         "prefix": {
-            "value": "iac-ws4"
+            "value": "gitops"
         },
         "tags": {
             "value": {
-                "Owner": "IaC Oslo",
-                "Environment": "Test",
-                "Workshop": "WS4",
-                "Location": "MS Teams",
-                "Date": "12.10.2021"
+                "Owner": "Alain Vetier",
+                "Environment": "Test"
             }
         },
         "slot": {

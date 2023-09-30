@@ -1,8 +1,8 @@
-param prefix string = 'iac-ws4'
+param prefix string = 'gitops'
 
 var location = resourceGroup().location
 var prefixForACR = replace(prefix, '-', '')
-var acrName = '${prefixForACR}evgacr'
+var acrName = '${prefixForACR}alainvacr'
 
 var logAnalyticsWorkspaceName = '${prefix}-${uniqueString(subscription().subscriptionId)}-la'
 var logAnalyticsRetentionInDays = 60
